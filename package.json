@@ -1,0 +1,6 @@
+{
+  "description": "",
+  "devDependencies": {
+    "backstopjs": "^6.2.2"
+  }
+}
