@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Ticketbox_Initial_state_0_document_0_tablet.png",
-        "test": "..\\bitmaps_test\\20230807-222351\\Ticketbox_Initial_state_0_document_0_tablet.png",
+        "test": "..\\bitmaps_test\\20230821-171034\\Ticketbox_Initial_state_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "Ticketbox_Initial_state_0_document_0_tablet.png",
         "label": "Initial state",
@@ -27,7 +27,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Ticketbox_Check_VIP_0_document_0_tablet.png",
-        "test": "..\\bitmaps_test\\20230807-222351\\Ticketbox_Check_VIP_0_document_0_tablet.png",
+        "test": "..\\bitmaps_test\\20230821-171034\\Ticketbox_Check_VIP_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "Ticketbox_Check_VIP_0_document_0_tablet.png",
         "label": "Check VIP",
@@ -50,7 +50,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Ticketbox_Checkboxes_0_document_0_tablet.png",
-        "test": "..\\bitmaps_test\\20230807-222351\\Ticketbox_Checkboxes_0_document_0_tablet.png",
+        "test": "..\\bitmaps_test\\20230821-171034\\Ticketbox_Checkboxes_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "Ticketbox_Checkboxes_0_document_0_tablet.png",
         "label": "Checkboxes",
@@ -73,7 +73,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Ticketbox_Selects_three_tickets_0_document_0_tablet.png",
-        "test": "..\\bitmaps_test\\20230807-222351\\Ticketbox_Selects_three_tickets_0_document_0_tablet.png",
+        "test": "..\\bitmaps_test\\20230821-171034\\Ticketbox_Selects_three_tickets_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "Ticketbox_Selects_three_tickets_0_document_0_tablet.png",
         "label": "Selects three tickets",
@@ -96,7 +96,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Ticketbox_Invalid_email_0_document_0_tablet.png",
-        "test": "..\\bitmaps_test\\20230807-222351\\Ticketbox_Invalid_email_0_document_0_tablet.png",
+        "test": "..\\bitmaps_test\\20230821-171034\\Ticketbox_Invalid_email_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "Ticketbox_Invalid_email_0_document_0_tablet.png",
         "label": "Invalid email",
@@ -119,10 +119,36 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Ticketbox_Fill_all_mandatory_fields_0_document_0_tablet.png",
-        "test": "..\\bitmaps_test\\20230807-222351\\Ticketbox_Fill_all_mandatory_fields_0_document_0_tablet.png",
+        "test": "..\\bitmaps_test\\20230821-171034\\Ticketbox_Fill_all_mandatory_fields_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "Ticketbox_Fill_all_mandatory_fields_0_document_0_tablet.png",
         "label": "Fill all mandatory fields",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.8544921875,
+          "misMatchPercentage": "0.85",
+          "analysisTime": 38
+        },
+        "diffImage": "..\\bitmaps_test\\20230821-171034\\failed_diff_Ticketbox_Fill_all_mandatory_fields_0_document_0_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Ticketbox_Sucessfully_submits_the_form_0_document_0_tablet.png",
+        "test": "..\\bitmaps_test\\20230821-171034\\Ticketbox_Sucessfully_submits_the_form_0_document_0_tablet.png",
+        "selector": "document",
+        "fileName": "Ticketbox_Sucessfully_submits_the_form_0_document_0_tablet.png",
+        "label": "Sucessfully submits the form",
         "requireSameDimensions": true,
         "misMatchThreshold": 0,
         "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
@@ -141,33 +167,8 @@ report({
     },
     {
       "pair": {
-        "reference": "..\\bitmaps_reference\\Ticketbox_Sucessfully_submits_the_form_0_document_0_tablet.png",
-        "test": "..\\bitmaps_test\\20230807-222351\\Ticketbox_Sucessfully_submits_the_form_0_document_0_tablet.png",
-        "selector": "document",
-        "fileName": "Ticketbox_Sucessfully_submits_the_form_0_document_0_tablet.png",
-        "label": "Sucessfully submits the form",
-        "requireSameDimensions": true,
-        "misMatchThreshold": 0,
-        "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
-        "expect": 0,
-        "viewportLabel": "tablet",
-        "diff": {
-          "isSameDimensions": true,
-          "dimensionDifference": {
-            "width": 0,
-            "height": 0
-          },
-          "rawMisMatchPercentage": 0,
-          "misMatchPercentage": "0.00",
-          "analysisTime": 39
-        }
-      },
-      "status": "pass"
-    },
-    {
-      "pair": {
         "reference": "..\\bitmaps_reference\\Ticketbox_Header_components_0_header_0_tablet.png",
-        "test": "..\\bitmaps_test\\20230807-222351\\Ticketbox_Header_components_0_header_0_tablet.png",
+        "test": "..\\bitmaps_test\\20230821-171034\\Ticketbox_Header_components_0_header_0_tablet.png",
         "selector": "header",
         "fileName": "Ticketbox_Header_components_0_header_0_tablet.png",
         "label": "Header components",
@@ -190,7 +191,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Ticketbox_Reset_button_components_0_reset_0_tablet.png",
-        "test": "..\\bitmaps_test\\20230807-222351\\Ticketbox_Reset_button_components_0_reset_0_tablet.png",
+        "test": "..\\bitmaps_test\\20230821-171034\\Ticketbox_Reset_button_components_0_reset_0_tablet.png",
         "selector": ".reset",
         "fileName": "Ticketbox_Reset_button_components_0_reset_0_tablet.png",
         "label": "Reset button components",
@@ -213,10 +214,56 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Ticketbox_Submit_button_gray_components_0_buttontypesubmit_0_tablet.png",
-        "test": "..\\bitmaps_test\\20230807-222351\\Ticketbox_Submit_button_gray_components_0_buttontypesubmit_0_tablet.png",
+        "test": "..\\bitmaps_test\\20230821-171034\\Ticketbox_Submit_button_gray_components_0_buttontypesubmit_0_tablet.png",
         "selector": "button[type=\"submit\"]",
         "fileName": "Ticketbox_Submit_button_gray_components_0_buttontypesubmit_0_tablet.png",
         "label": "Submit button gray components",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Ticketbox_Submit_button_blue_components_0_buttontypesubmit_0_tablet.png",
+        "test": "..\\bitmaps_test\\20230821-171034\\Ticketbox_Submit_button_blue_components_0_buttontypesubmit_0_tablet.png",
+        "selector": "button[type=\"submit\"]",
+        "fileName": "Ticketbox_Submit_button_blue_components_0_buttontypesubmit_0_tablet.png",
+        "label": "Submit button blue components",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Ticketbox_Success_message_components_0_success_0_tablet.png",
+        "test": "..\\bitmaps_test\\20230821-171034\\Ticketbox_Success_message_components_0_success_0_tablet.png",
+        "selector": ".success",
+        "fileName": "Ticketbox_Success_message_components_0_success_0_tablet.png",
+        "label": "Success message components",
         "requireSameDimensions": true,
         "misMatchThreshold": 0,
         "url": "https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html",
